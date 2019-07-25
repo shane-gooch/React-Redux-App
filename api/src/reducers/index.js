@@ -6,7 +6,7 @@ import {
 
 const initialState = {
   drinks: [],
-  isFetchingD: false,
+  isFetching: false,
   error: ""
 };
 

@@ -2,11 +2,11 @@ import React from "react";
 
 export default function DrinkContainer(props) {
   return (
-    <div className="drinContainer">
+    <div className="drinkContainer">
       {props.drinks &&
         props.drinks.map(drink => {
           return (
-            <div key={drink.idDrink}>
+            <div key={drink.idDrink} className="drinks">
               <h3 className="drinkTitle">{drink.strDrink}</h3>
               <img
                 className="drinkPicture"
